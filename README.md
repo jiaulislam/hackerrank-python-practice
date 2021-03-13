@@ -1,2 +1,4 @@
-# hackerrank-python-practice
-an approach to polish to my python expertise
+# HackerRank-Python-Practice
+An simple approach to polish my python expertise
+
+> Target is to get 5 Star
