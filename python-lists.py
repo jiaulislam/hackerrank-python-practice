@@ -17,4 +17,3 @@ if __name__=="__main__":
             list.reverse()
         elif action == 'print':
             print(list)
-    # print(list)
