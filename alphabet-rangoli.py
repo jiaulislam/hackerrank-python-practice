@@ -7,7 +7,7 @@ def print_rangoli(size):
         s = "-".join(chars[i:n])
         # s[::-1] is reverse of c-b-a and s[1:] is b-c
         line.append((s[::-1]+s[1:]).center(width,"-"))
-        print(line)
+        # print(line)
 
     # pick the list last item + 
     print("\n".join(line[:0:-1]+line))
