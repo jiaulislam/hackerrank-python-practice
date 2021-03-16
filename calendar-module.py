@@ -5,7 +5,6 @@ def get_day_name(year, month, day):
     weekday = calendar.weekday(year, month, day)
     # print(weekday)
     return days[weekday]
-        
 
 
 if __name__=="__main__":
