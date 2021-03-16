@@ -25,7 +25,7 @@
 """
 import math
 row, cols = map(int, input().split())
-middle = row//2+1
+middle = math.ceil(row/2)
 
 for i in range(1, middle):
     center = (i*2-1)*".|."
