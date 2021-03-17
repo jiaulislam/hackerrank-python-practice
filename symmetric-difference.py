@@ -3,8 +3,5 @@ m_set = set(map(int, input().strip().split()))
 N = int(input())
 n_set = set(map(int, input().strip().split()))
 
-diff = []
-diff.append(x for x in list(map(int, m_set.difference(n_set))))
-diff.append(x for x in list(map(int, n_set.difference(m_set))))
-
-print(diff)
+diff = [x for x in m_set.difference(n_set)]+[y for y in n_set.difference(m_set)]
+print("\n".join(str(x) for x in sorted(diff)))
