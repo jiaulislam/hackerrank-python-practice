@@ -1,5 +1,3 @@
-
-
 if __name__ == "__main__":
     input()
     s = set(x for x in list(map(int, input().split())))
